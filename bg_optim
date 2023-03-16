@@ -1,0 +1,81 @@
+//////////////////////////////////////////////////////////////////////////
+// Copyright (2013-2023) Svetlin Tassev
+//
+// 
+// Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//
+//////////////////////////////////////////////////////////////////////////
+// Version 1.0
+
+partial alphanumeric_keys
+xkb_symbols "optimized" {
+  name[Group1]= "Bulgarian (Optimized)";
+    include "us(colemak)"
+
+  
+    key <TLDE> { [        apostrophe,        quotedbl,       rightsinglequotemark, leftsinglequotemark ] };  
+    key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };                 
+    key <AE02> { [            2,           at,       masculine,      twosuperior ] };                 
+    key <AE03> { [            3,   numerosign,     ordfeminine,    threesuperior ] };                 
+    key <AE04> { [            4,       dollar,            cent,         sterling ] };                 
+    key <AE05> { [            5,      percent,        EuroSign,              yen ] };                 
+    key <AE06> { [            6,     EuroSign,         hstroke,          Hstroke ] };                 
+    key <AE07> { [            7,      section,             eth,              ETH ] };                 
+    key <AE08> { [            8,     asterisk,           thorn,            THORN ] };                 
+    key <AE09> { [            9,    parenleft,     bracketleft,            U2329 ] };              
+    key <AE10> { [            0,   parenright,    bracketright,            U232A ] };                   
+    key <AE11> { [        minus,   underscore,           U2011,            U2011 ] };                 
+    key <AE12> { [        equal,         plus,          emdash,           dagger ] };                 
+                                                                                                   
+    key <AD01> { [Cyrillic_zhe,        Cyrillic_ZHE  ] };     
+    key <AD02> { [      Cyrillic_ze,       Cyrillic_ZE  ] };    	   
+    key <AD03> { [      Cyrillic_ya,       Cyrillic_YA,           U0463,             U0462 ] };   	
+    key <AD04> { [      Cyrillic_pe,       Cyrillic_PE  ] };    	   
+    key <AD05> { [     Cyrillic_ghe,      Cyrillic_GHE  ] };   	   
+    key <AD06> { [  Cyrillic_shorti,   Cyrillic_SHORTI,           U046D,             U046C ] };        
+    key <AD07> { [      Cyrillic_el,       Cyrillic_EL  ] };        
+    key <AD08> { [       Cyrillic_u,        Cyrillic_U  ] };        
+    key <AD09> { [Cyrillic_hardsign, Cyrillic_HARDSIGN,           U046B,             U046A ] };         
+    key <AD10> { [  Cyrillic_tse,        Cyrillic_TSE,       copyright,         copyright] };        
+    key <AD11> { [   Cyrillic_yu,         Cyrillic_YU ] };        
+    key <AD12> { [    Cyrillic_softsign,             U045D ,  Cyrillic_yeru,     Cyrillic_YERU] };          
+    key <BKSL> { [        semicolon,             colon,           grave,          ellipsis ] };     
+                                                                                                      
+    key <AC01> { [ Cyrillic_a,        Cyrillic_A  ] };              
+    key <AC02> { [Cyrillic_er,       Cyrillic_ER,      registered,        registered  ] };              
+    key <AC03> { [Cyrillic_es,       Cyrillic_ES,       copyright,         copyright  ] };              
+    key <AC04> { [Cyrillic_te,       Cyrillic_TE,       trademark,         trademark  ] };              
+    key <AC05> { [Cyrillic_de,       Cyrillic_DE  ] };              
+    key <AC06> { [Cyrillic_ve,       Cyrillic_VE  ] };              
+    key <AC07> { [Cyrillic_en,       Cyrillic_EN  ] };              
+    key <AC08> { [Cyrillic_ie,       Cyrillic_IE,      Cyrillic_e,        Cyrillic_E  ] };              
+    key <AC09> { [ Cyrillic_i,        Cyrillic_I,           U045D,             U040D  ] };              
+    key <AC10> { [ Cyrillic_o,        Cyrillic_O  ] };           
+    key <AC11> { [Cyrillic_ha,       Cyrillic_HA  ] };              
+                                                                                                   
+    key <AB01> { [       Cyrillic_ef,       Cyrillic_EF ] };          
+    key <AB02> { [ Cyrillic_sha,      Cyrillic_SHA] };          
+    key <AB03> { [  Cyrillic_shcha,    Cyrillic_SHCHA   ] };          
+    key <AB04> { [ Cyrillic_che,        Cyrillic_CHE ] };          
+    key <AB05> { [  Cyrillic_be,         Cyrillic_BE ] };          
+    key <AB06> { [  Cyrillic_ka,         Cyrillic_KA ] };          
+    key <AB07> { [  Cyrillic_em,         Cyrillic_EM ] };          
+    key <AB08> { [        comma,  doublelowquotemark,   guillemotleft,     guillemotleft ] };          
+    key <AB09> { [       period, leftdoublequotemark,  guillemotright,    guillemotright ] };          
+    key <AB10> { [        slash,            question,           U0300,             U0301 ] };            
+                                                                                                      
+    key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };              
+    key <LSGT> { [        minus,   underscore,          endash,           emdash ] };                 
+    key <SPCE> { [        space,        space,    nobreakspace,     nobreakspace ] };              
+                                                                                                      
+    include "level3(ralt_switch)"                                                      
+};
+
