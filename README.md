@@ -33,4 +33,4 @@ Copy `bg_optim` to  `/usr/share/X11/xkb/symbols/`.
 
 Then copy `evdev.xml` to `/usr/share/X11/xkb/rules/`.
 
-Log out and log in. Layout should be available after that.
+Log out and log in. The layout `Bulgarian (optimized)` should be available after that.
